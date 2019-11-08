@@ -1,0 +1,348 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.challenge:spring-data-ddl >--------------------
+[INFO] Building spring-data-ddl 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-data-ddl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wesley/codenation/java-9/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-data-ddl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/wesley/codenation/java-9/target/test-classes
+[INFO] /home/wesley/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java: /home/wesley/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java uses unchecked or unsafe operations.
+[INFO] /home/wesley/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-data-ddl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.challenge.suite.ChallengeTestSuite
+20:58:32.314 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.383 [main] INFO org.reflections.Reflections - Reflections took 64 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.480 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.484 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.490 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.495 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.501 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.506 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.509 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.516 [main] INFO org.reflections.Reflections - Reflections took 7 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.522 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.527 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.531 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.536 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.538 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.542 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.547 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.551 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.554 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.557 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.562 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.565 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.567 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.570 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.572 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.574 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.579 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.587 [main] INFO org.reflections.Reflections - Reflections took 7 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.596 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.605 [main] INFO org.reflections.Reflections - Reflections took 9 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.608 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.619 [main] INFO org.reflections.Reflections - Reflections took 11 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.622 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.625 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.627 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.642 [main] INFO org.reflections.Reflections - Reflections took 10 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.650 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.662 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.682 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.686 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.693 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.696 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.711 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.716 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.724 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.728 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.733 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.745 [main] INFO org.reflections.Reflections - Reflections took 11 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.750 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.754 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.757 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.767 [main] INFO org.reflections.Reflections - Reflections took 9 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.771 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.773 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.775 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.780 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.783 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.795 [main] INFO org.reflections.Reflections - Reflections took 11 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.801 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.805 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.808 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.811 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.815 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.817 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.820 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.822 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.833 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.835 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.838 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.841 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.844 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.847 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.849 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.852 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.856 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.861 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.864 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.866 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.869 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.872 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.875 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.876 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.878 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.881 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.883 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.896 [main] INFO org.reflections.Reflections - Reflections took 12 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.898 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.902 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.904 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.905 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.908 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.910 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.912 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.913 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.916 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.918 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.922 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.925 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.927 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.929 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.931 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.932 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.934 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.936 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.937 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.939 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.940 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.942 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.944 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.946 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.948 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.950 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.954 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.955 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.957 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.959 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.960 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.961 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.962 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.964 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.966 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.968 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.969 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.972 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.975 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.977 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.979 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.983 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.990 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.992 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.994 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:32.996 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:32.998 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.000 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.002 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.004 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.005 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.006 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.008 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.010 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.011 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.013 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.015 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.018 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.020 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.022 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.023 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.024 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.026 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.027 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.028 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.030 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.032 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.033 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.064 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.068 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.072 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.074 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.075 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.077 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.078 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.081 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.084 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.089 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.091 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.092 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.093 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.095 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.096 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.098 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.100 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.104 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.107 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.109 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.113 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.115 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.117 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.119 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.120 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.121 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.123 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.124 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.126 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.127 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.128 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.129 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.133 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.134 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.135 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.137 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.138 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.139 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.141 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.142 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.145 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.147 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.149 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.152 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.153 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.154 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.156 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.157 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+20:58:33.159 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wesley/codenation/java-9/target/classes/
+20:58:33.160 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 23 values 
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.113 s - in com.challenge.suite.ChallengeTestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.570 s
+[INFO] Finished at: 2019-11-08T20:58:33-02:00
+[INFO] ------------------------------------------------------------------------
